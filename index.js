@@ -14,15 +14,16 @@
 //alert( hello ${"name"} ); // ?
 //alert( hello ${name} ); // ?
 
-
+//4
 // var name = prompt("Как вас зовут?");
 //  document.write("Привет, " + Name + "!")';
 
+//5
 // let a = 1, b = 1;
 // let c = ++a; // ?
 // let d = b++; // ?
 
-
+//6
 // let a = 2;
 //let x = 1 + (a *= 2);
 //alert(a + b); // 12
@@ -51,10 +52,7 @@
 //null == "\n0\n"
 //null ==+ "\n0\n"
 
-//if ("0") {
-//   alert( "Привет");
-// }
-
+//10
 // let value = prompt("Какое "официальное" название JavaScript?", '');
 //     if (value == 'ECMAScript')
 //     {
@@ -65,6 +63,7 @@
 //        alert("Не знаете? ECMAScript!");
 //     }
 
+//11
 // let value = prompt("Введите число")
 // if (value > 0)
 //  {
@@ -79,11 +78,79 @@
 //    alert(0);
 //  }
 
-let result;
-if (a +_b < 4) {
-    result = "Мало";
-}   else {
-    result = "Много";
-}
+//12
+//let result;
+//if (a +_b < 4) {
+//    result = "Мало";
+//}   else {
+//    result = "Много";
+//}
 
 
+//9
+// if ("0") {
+    //alert("Привет");
+//}
+//Да выведет, так как с js значение 0 является истинной, то есть true
+
+// https://github.com/kirillFOXlis/vanyaumedkirill
+
+//13
+// let message;
+//     if(login =='Сотрудник') {
+//         message = 'Привет';
+//     }
+//     else if (login == 'Директор') {
+//         message = 'Здравствуйте';
+//     }
+//     else if (login == '') {
+//         message = 'Нет логина';
+//     }
+//     else {
+//         message = '';
+//     }
+
+//14
+//alert(null ||4|| undefined); - выводит 4
+
+//15
+//alert(alert(1) ||2|| alert(3)); - выводит или 1 или 2 
+
+//16
+//alert((1) && alert && (2));
+
+//17
+//alert(alert(1) && alert(2));
+
+//18
+// alert(null || 2 && 3 || 4);
+
+//19
+//let value = NaN;
+
+//value &&= 10;
+//value ||= 20;
+//value &&= 30;
+//value ||= 40;
+
+//alert(value);
+
+
+//20
+// if (age >= 14 && age <= 90){
+
+// }
+
+//21
+// if (!(age >= 17 && age <= 99)) { с НЕ
+
+// }
+
+// if (age < 17 || age > 99) { без НЕ
+
+// }
+
+//22
+if (-1 || 0)alert('first')
+if (-1 && 0)alert('second');
+if (null || -1 && 1) alert ('third')   
